@@ -5,3 +5,56 @@
   margin: 0;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.first-section,
+.second-section,
+.third-section {
+  width: 33.33%;
+  float: left;
+}
+.first-section .fa:hover {
+  cursor: pointer;
+}
+.second-section {
+  text-align: center;
+}
+.second-section img {
+  width: 220px;
+}
+.third-section {
+  text-align: right;
+}
+.third-section button {
+  background-color: #567B95;
+  color: #fff;
+  padding: 7px 10px;
+  border-color: #567B95;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+}
+.third-section button:hover {
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+  top: 60px;
+}
