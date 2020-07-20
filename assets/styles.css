@@ -58,3 +58,18 @@ main {
   position: relative;
   top: 60px;
 }
+.section-one{
+  width:700px;
+  margin:auto;
+  
+}
+.section-one img{
+  width:100%;
+}
+h1{
+  font-size: 40px;
+}
+.caption{
+  color: #666;
+  font-size: 16px;
+}
