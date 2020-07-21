@@ -145,7 +145,7 @@ article header a {
 .editor-picks-article article img{
   width:80px;
   margin-top: auto;
-} 
+}
 .editor-picks-article article{
   display: flex;
   margin:10px auto;
@@ -154,3 +154,42 @@ article header a {
   padding:10px;
 }
 
+.inflation {
+  width: 60vw;
+  margin: auto;
+  position: relative;
+}
+
+.inflation figure {
+  margin-top: 5px;
+}
+
+.inflation img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.thumbnail-texts {
+  position: absolute;
+  top: 14vw;
+}
+
+.thumbnail-texts section:nth-child(2) {
+  position: relative;
+  top: 6vw;
+}
+
+.thumbnail-texts p {
+  font-size: 0.7em;
+  width: 25%;
+  float: left;
+  padding: 8px;
+}
+
+.inflation hr {
+  width: 80px;
+}
+
+.inflation-footer {
+  font-size: 13px
+}
