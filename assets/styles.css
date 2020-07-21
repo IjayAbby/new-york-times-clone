@@ -93,6 +93,7 @@ article header a {
 .article-description {
   width: 50%;
   margin: 30px auto;
+  position: relative;
 }
 
 .date-socials {
@@ -135,3 +136,21 @@ article header a {
   top: 3px;
   color: #326891;
 }
+ .aside-section{
+  position: absolute;
+  width:220px;
+  top:1700px;
+  right:40px;
+}
+.editor-picks-article article img{
+  width:80px;
+  margin-top: auto;
+} 
+.editor-picks-article article{
+  display: flex;
+  margin:10px auto;
+}
+.editor-picks-article article a{
+  padding:10px;
+}
+
