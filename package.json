@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IjayAbby/new-york-times-clone/issues"
   },
-  "homepage": "https://github.com/IjayAbby/new-york-times-clone#readme"
+  "homepage": "https://github.com/IjayAbby/new-york-times-clone#readme",
+  "devDependencies": {
+    "hint": "^6.0.6"
+  }
 }
