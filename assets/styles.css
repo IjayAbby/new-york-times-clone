@@ -227,7 +227,7 @@ article header a {
 }
 
 .more-section {
-  width: 80vw;
+  width: 90vw;
   display: flex;
   margin: 30px auto;
 }
@@ -239,8 +239,26 @@ article header a {
 }
 
 .grid-section {
-  background-color: red;
   flex-basis: 70%;
+}
+.grid-container{
+  display:grid;
+  grid-template-columns:repeat(3 ,1fr);
+  gap:30px 15px;
+ 
+  
+}
+.grid-item{
+ 
+}
+.grid-item img{
+  width:100%;
+  /* margin:50px; */
+}
+
+small{
+  font-size:10px;
+
 }
 
 .popular {
