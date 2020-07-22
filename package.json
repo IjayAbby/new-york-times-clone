@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css_check": "npx stylelint \"**/*.{css,scss}\"",
+    "html_check": "npx hint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/IjayAbby/new-york-times-clone/issues"
   },
-  "homepage": "https://github.com/IjayAbby/new-york-times-clone#readme"
+  "homepage": "https://github.com/IjayAbby/new-york-times-clone#readme",
+  "devDependencies": {
+    "hint": "^6.0.6",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  }
 }
