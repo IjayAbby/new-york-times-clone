@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/author1-oracleot-green) ![](https://img.shields.io/badge/author2-IjayAbby-blue) ![](https://img.shields.io/badge/project-newyorktimesclone-orange)
+![](https://img.shields.io/badge/author2-IjayAbby-blue) ![](https://img.shields.io/badge/author1-oracleot-green) ![](https://img.shields.io/badge/project-newyorktimesclone-orange)
 
 # New York Times Clone
 
