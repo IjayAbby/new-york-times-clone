@@ -266,13 +266,13 @@ small{
   padding-left: 20px;
 }
 
-ul li {
+.popular ul li {
   list-style: none;
   border-top: solid thin #e2e2e2;
   padding: 15px 0;
 }
 
-ul li a {
+.popular ul li a {
   font-size: 19px;
 }
 
@@ -290,7 +290,36 @@ ul li a {
   background-color: #567B95;
   color: #fff;
 }
+.sub-footer{
+  margin-bottom:100px;
+}
+.footer-left{
+  display: flex;
+  width:70%;
+  justify-content:space-between;
+  margin:20px;
+}
+.footer-left ul li{
+  list-style-type: none;
+  padding:5px 0;
+  font-size:14px;
+}
+.footer-header p{
+  display:flex;
+  width:20px;
+   
+}
+.footer-header img{
+  width:150px;
+  margin-right:900px
+}
+.sub-footer-right{
+  display:flex;
+}
 
+.sub-footer img{
+  width:200px;
+}
 .sticky-footer {
   position: fixed;
   background-color: #fff;
