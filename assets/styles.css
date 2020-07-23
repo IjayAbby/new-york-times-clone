@@ -45,8 +45,7 @@ p small {
 .section-one img,
 .inflation img,
 .grid-item img,
-.sticky-footer
- {
+.sticky-footer {
   width: 100%;
 }
 
@@ -55,21 +54,6 @@ p small {
 .third-section {
   width: 33.33%;
   float: left;
-}
-
-.first-section .fa:hover,
-.third-section button:hover,
-.sticky-footer button:hover
- {
-  cursor: pointer;
-}
-
-.second-section {
-  text-align: center;
-}
-
-.second-section img {
-  width: 220px;
 }
 
 .more-comments button {
@@ -91,10 +75,6 @@ p small {
   color: #333;
 }
 
-.third-section {
-  text-align: right;
-}
-
 .third-section button {
   background-color: #567b95;
   color: #fff;
@@ -104,6 +84,24 @@ p small {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 11px;
+}
+
+.first-section .fa:hover,
+.third-section button:hover,
+.sticky-footer button:hover {
+  cursor: pointer;
+}
+
+.second-section {
+  text-align: center;
+}
+
+.second-section img {
+  width: 220px;
+}
+
+.third-section {
+  text-align: right;
 }
 
 main {
@@ -310,7 +308,7 @@ article header a {
   margin-bottom: 30px;
 }
 
-.editors-picks {
+.editors_picks {
   margin-top: 30px;
 }
 
