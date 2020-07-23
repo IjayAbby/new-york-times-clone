@@ -8,14 +8,16 @@
   <script crossorigin="anonymous" src="https://use.fontawesome.com/f220714871.js"></script>
 </head>
 <body>
-  <header class="header">
+  <header class="header flex">
     <div class="first-section">
       <i class="fa fa-bars" aria-hidden="true"></i>
       &emsp;
       <i class="fa fa-search" aria-hidden="true"></i>
     </div>
     <div class="second-section">
-      <img src="assets/images/logo.png" alt="New York Times logo" />
+      <a href="https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0">
+        <img src="assets/images/logo.png" alt="New York Times logo" />
+      </a>
     </div>
     <div class="third-section">
       <button id="subscribe-now" type="button">Subscribe Now</button>
@@ -31,13 +33,13 @@
         </h1>
         <figure class="article-hero-banner">
           <img src="assets/images/18cosmos-superJumbo.jpg" alt="Space Ripples Reveal Big Bang’s Smoking Gun.">
-          <figcaption class="caption">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times</figcaption>
+          <figcaption class="caption color-secondary">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times</figcaption>
         </figure>
       </article>
       <article class="article-description">
         <header>
           <h4 class="author">By <a href="#">Dennis Overbye</a></h4>
-          <div class="date-socials">
+          <div class="date-socials flex space-between">
             <div class="date">March 17, 2014</div>
             <div class="social-icons">
               <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -113,15 +115,15 @@
       <h4>Editors' Picks</h4>
       <hr>
       <div class="editor-picks-article">
-        <article>
+        <article class="flex">
           <img src="./assets/images/travel-panama-promo-square640.jpg" alt="">
           <a href="https://www.nytimes.com/2020/07/20/travel/panama-hats-ecuador.html?action=click&algo=top_conversion&block=editors_picks_recirc&fellback=true&imp_id=642175479&impression_id=42046924&index=0&pgtype=Article&region=ccolumn&req_id=55666853&surface=home-featured">A Glimpse inside the workshops of the World's finest Panama Hat Makers.</a>
         </article>
-        <article>
+        <article class="flex">
           <img src="./assets/images/BEARWHISPERER-promo-square640.jpg" alt="">
           <a href="https://www.nytimes.com/2020/07/18/science/bear-whisperer-steve-searles.html?action=click&algo=top_conversion&block=editors_picks_recirc&fellback=true&imp_id=776957400&impression_id=875196795&index=1&pgtype=Article&region=ccolumn&req_id=55666853&surface=home-featured">He kept a community's Bear in check, But he won't anymore</a>
         </article>
-        <article>
+        <article class="flex">
           <img src="./assets/images/aside-1.jpg" alt="">
           <a href="#">Living in a condusive environment is a dream to every woman.</a>
         </article>
@@ -130,7 +132,7 @@
     <section class="inflation">
       <h2>The Theory of Inflation</h2>
       <figure class="article-hero-banner">
-        <figcaption class="caption">
+        <figcaption class="caption color-secondary">
           Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.
         </figcaption>
         <img src="assets/images/inflation-945.png" alt="The Theory of Inflation">
@@ -191,8 +193,8 @@
       </p>
       <figure>
         <iframe title="Stanford Professor Andrei Linde celebrates..." width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <figcaption class="caption">Stanford Professor Andrei Linde celebrates physics breakthrough
-          <span>Video by StanfordUniversity</span>
+        <figcaption class="caption color-secondary">Stanford Professor Andrei Linde celebrates physics breakthrough
+          <span class="color-secondary">Video by StanfordUniversity</span>
           </figcaption>
       </figure>
       <p>
@@ -239,7 +241,7 @@
       </p>
       <figure class="spiral-image">
         <img src="assets/images/spiralsinthesky.jpg" alt="Spirals in the sky.">
-        <figcaption class="caption">
+        <figcaption class="caption color-secondary">
           The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth.
           <span>Steffen Richter/Associated Press</span>
         </figcaption>
@@ -301,11 +303,11 @@
     “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
     </p>
     <section class="article-footer">
-      <small>
+      <small class="color-secondary">
         A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe
       </small>
       <br />
-      <div class="more-comments">
+      <div class="more-comments flex space-between">
         <button id="comments" type="button">Read 615 comments</button>
         <div class="social-icons">
           <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -319,77 +321,90 @@
       </div>
     </section>
     </section>
-    <section class="more-section">
+    <section class="more-section flex">
       <div class="grid-section">
         <h4>More in space and astronomy</h4>
         <div class="grid-container">
-          <div class="grid-item">
-            <img src="assets/images/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg" alt="">
-            <small>Solar Orbiter/EUI Team(ESA & NASA)</small>
-            <a href="https://www.nytimes.com/2020/07/16/science/solar-orbiter-sun-images.html?action=click&block=more_in_recirc&impression_id=603315740&index=0&pgtype=Article&region=footer"><strong>Closest Pictures Ever Taken of Sun Show Tiny Campfire Flares</strong><span>July 17</span></a>
-          </div>
-          <div class="grid-item">
-            <img src="assets/images/15SCI-COMET1-threeByTwoSmallAt2X.jpg" alt="">
-               <small>Chris Pietsch/The Register-Guard, via Associated Press</small>
-            <a href="https://www.nytimes.com/article/neowise-comet.html?action=click&block=more_in_recirc&impression_id=594159764&index=1&pgtype=Article&region=footer"><strong>Comet NEOWISE:How to See It in Night Skie</strong>
-              <span>July 15</span></a>
-          </div>
-          <div class="grid-item">
-            <img src="assets/images/space-3.jpeg" alt="">
-            <small>PAID POST:Audemars Piguet</small>
-            <a href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsu7VEpiZG6GB3H4LjqhGHOtJBnaI8_ML0-ObmkFpQor1fa8v2EOKL28xfQoZONwqDX-fX5ANyBTM_K1xq-YTQcuwjM2WpzOqHmlq5OU0kRYuuLVW4DAiZrK8Iq9iDmBazWkLNsfFOp9IkRrGc03F3FY0ccxa-A9JJgNi9PGvcC0-rqN_3uCn34oI7otktKITzhXaSZzcMCFCe3MBBnwc1l-F5hQ-FhmK0PUsX_Oj5ZmL7aU10Ifr70cOqXnSDRCudQbqg&sai=AMfl-YQaKPEEeq_Lxnj70id8a-zXXX85JwKbdmkPUdlo58aOr5YrtGAiQ-nacPErqkSNG1CxeXGpKxQq3klubgE6Z2RtlOZosY7ufrPubKx8Vk3OMT3HTGWp_JBFwGtC89EthpVhLQ&sig=Cg0ArKJSzATr3HgeKsbAEAE&urlfix=1&adurl=https://www.nytimes.com/paidpost/audemars-piguet/step-inside-a-spiraling-watch-museum-in-the-swiss-jura-mountains.html%3Fcpv_ap_id%3D50049962%26sr_source%3Dlift_morein%26tbs_nyt%3D2020-June-nytnative_morein"><strong>Step Insidea Spiraling Watch Museum in the Swiss Jura Mountains</strong></a>
-          </div>
-          <div class="grid-item">
-          <img src="assets/images/space-4.jpg" alt="">
-          <small>Emirati Mars Mission</small>
-            <a href="https://www.nytimes.com/2020/07/14/science/mars-united-arab-emirates.html?action=click&block=more_in_recirc&impression_id=806605553&index=3&pgtype=Article&region=footer"><strong>How the United Arab Emirates Set Its Sights on Mars</strong>
-              <span>July 19</span></a>
-          </div>
-          <div class="grid-item">
-            <img src="assets/images/space-5.jpg" alt="">
-            <small>NASA</small>
-            <a href="https://www.nytimes.com/2020/07/10/science/astronomy-galaxies-attractor-universe.html?action=click&block=more_in_recirc&impression_id=782663657&index=4&pgtype=Article&region=footer"><strong>Beyond the Milky Way a Galactic Wall</strong>
-              <span>July 10</span></a>
-          </div>
-          <div class="grid-item">
-            <img src="assets/images/space-6.jpg" alt="">
-            <small>Bill Ingalls/NASA, via Associated Press</small>
-            <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer"><strong>Scrutinizing SpaceX, NASA Overlooked Some Boeing Software Problems</strong>
-              <span>July 7</span></a>
-          </div>
+          <a href="https://www.nytimes.com/2020/07/16/science/solar-orbiter-sun-images.html?action=click&block=more_in_recirc&impression_id=603315740&index=0&pgtype=Article&region=footer">
+            <div class="grid-item">
+              <img src="assets/images/16SOLARORBITER-loop-cover-threeByTwoSmallAt2X.jpg" alt="">
+              <small>Solar Orbiter/EUI Team(ESA & NASA)</small>
+              <strong>Closest Pictures Ever Taken of Sun Show Tiny Campfire Flares</strong><span>July 17</span>
+            </div>
+          </a>
+          <a href="https://www.nytimes.com/article/neowise-comet.html?action=click&block=more_in_recirc&impression_id=594159764&index=1&pgtype=Article&region=footer">
+            <div class="grid-item">
+              <img src="assets/images/15SCI-COMET1-threeByTwoSmallAt2X.jpg" alt="">
+              <small>Chris Pietsch/The Register-Guard, via Associated Press</small>
+              <strong>Comet NEOWISE:How to See It in Night Skie</strong>
+              <span>July 15</span>
+            </div>
+          </a>
+          <a href="https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsu7VEpiZG6GB3H4LjqhGHOtJBnaI8_ML0-ObmkFpQor1fa8v2EOKL28xfQoZONwqDX-fX5ANyBTM_K1xq-YTQcuwjM2WpzOqHmlq5OU0kRYuuLVW4DAiZrK8Iq9iDmBazWkLNsfFOp9IkRrGc03F3FY0ccxa-A9JJgNi9PGvcC0-rqN_3uCn34oI7otktKITzhXaSZzcMCFCe3MBBnwc1l-F5hQ-FhmK0PUsX_Oj5ZmL7aU10Ifr70cOqXnSDRCudQbqg&sai=AMfl-YQaKPEEeq_Lxnj70id8a-zXXX85JwKbdmkPUdlo58aOr5YrtGAiQ-nacPErqkSNG1CxeXGpKxQq3klubgE6Z2RtlOZosY7ufrPubKx8Vk3OMT3HTGWp_JBFwGtC89EthpVhLQ&sig=Cg0ArKJSzATr3HgeKsbAEAE&urlfix=1&adurl=https://www.nytimes.com/paidpost/audemars-piguet/step-inside-a-spiraling-watch-museum-in-the-swiss-jura-mountains.html%3Fcpv_ap_id%3D50049962%26sr_source%3Dlift_morein%26tbs_nyt%3D2020-June-nytnative_morein">
+            <div class="grid-item">
+              <img src="assets/images/space-3.jpeg" alt="">
+              <small>PAID POST:Audemars Piguet</small>
+              <strong>Step Insidea Spiraling Watch Museum in the Swiss Jura Mountains</strong>
+            </div>
+          </a>
+          <a href="https://www.nytimes.com/2020/07/14/science/mars-united-arab-emirates.html?action=click&block=more_in_recirc&impression_id=806605553&index=3&pgtype=Article&region=footer">
+            <div class="grid-item">
+              <img src="assets/images/space-4.jpg" alt="">
+              <small>Emirati Mars Mission</small>
+              <strong>How the United Arab Emirates Set Its Sights on Mars</strong>
+              <span>July 19</span>
+            </div>
+          </a>
+          <a href="https://www.nytimes.com/2020/07/10/science/astronomy-galaxies-attractor-universe.html?action=click&block=more_in_recirc&impression_id=782663657&index=4&pgtype=Article&region=footer">
+            <div class="grid-item">
+              <img src="assets/images/space-5.jpg" alt="">
+              <small>NASA</small>
+              <strong>Beyond the Milky Way a Galactic Wall</strong>
+              <span>July 10</span>
+            </div>
+          </a>
+          <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer">
+            <div class="grid-item">
+              <img src="assets/images/space-6.jpg" alt="">
+              <small>Bill Ingalls/NASA, via Associated Press</small>
+              <strong>Scrutinizing SpaceX, NASA Overlooked Some Boeing Software Problems</strong>
+              <span>July 7</span>
+            </div>
+          </a>
         </div>
         <div class='editors_picks'>
           <h4>Editors' Picks</h4>
           <div class="grid-container">
-            <div class="grid-item">
-              <img src="assets/images/editor-picks-1.jpg" alt="">
-              <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer">
+            <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer">
+              <div class="grid-item">
+                <img src="assets/images/editor-picks-1.jpg" alt="">
                 <small>Bill Ingalls/NASA, via Associated Press</small><br />
                 <strong>The Teenagers at the end of the world</strong><br />
                 <span>July 7</span>
-              </a>
-            </div>
-            <div class="grid-item">
-              <img src="assets/images/editor-picks-2.jpg" alt="">
-              <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer">
-                <small>Bill Ingalls/NASA, via Associated Press</small><br />
-                <strong>Scrutinizing SpaceX, NASA Overlooked Some Boeing Software Problems</strong><br />
-                <span>July 7</span></a>
-            </div>
-            <div class="grid-item">
-              <img src="assets/images/editor-picks-3.jpg" alt="">
-              <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer">
+              </div>
+            </a>
+            <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer">
+              <div class="grid-item">
+                <img src="assets/images/editor-picks-2.jpg" alt="">
                 <small>Bill Ingalls/NASA, via Associated Press</small><br />
                 <strong>Scrutinizing SpaceX, NASA Overlooked Some Boeing Software Problems</strong><br />
                 <span>July 7</span>
-              </a>
-            </div>
+              </div>
+            </a>
+            <a href="https://www.nytimes.com/2020/07/07/science/boeing-starliner-nasa.html?action=click&block=more_in_recirc&impression_id=901726350&index=5&pgtype=Article&region=footer">
+              <div class="grid-item">
+                <img src="assets/images/editor-picks-3.jpg" alt="">
+                <small>Bill Ingalls/NASA, via Associated Press</small><br />
+                <strong>Scrutinizing SpaceX, NASA Overlooked Some Boeing Software Problems</strong><br />
+                <span>July 7</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
       <div class="popular">
         <h4>Most Popular</h4>
-        <ul>
+        <ul class="popular-list">
           <li>
             <a href="https://www.nytimes.com/2020/07/21/world/europe/trump-british-open.html?action=click&algo=top_conversion&block=trending_recirc&fellback=false&imp_id=661650328&impression_id=896734488&index=0&pgtype=Article&region=footer&req_id=507671910&surface=most-popular">
               Trump’s Request of an Ambassador: Get the British Open for Me
@@ -448,8 +463,8 @@
       <img src="./assets/images/logo.png" alt="">
       <a href="https://www.nytimes.com/">Go to Home Page <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
     </section>
-    <section class="sub-footer">
-      <div class="sub-footer-left">
+    <section class="sub-footer flex">
+      <div class="sub-footer-left flex space-between">
         <ul>
           <li>
             <strong>NEWS</strong>
