@@ -33,13 +33,21 @@ p small {
 .header {
   position: fixed;
   top: 0;
-  width: 100%;
   z-index: 1;
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   padding: 0 20px;
   display: flex;
   align-items: center;
+}
+
+.header,
+.section-one img,
+.inflation img,
+.grid-item img,
+.sticky-footer
+ {
+  width: 100%;
 }
 
 .first-section,
@@ -49,7 +57,10 @@ p small {
   float: left;
 }
 
-.first-section .fa:hover {
+.first-section .fa:hover,
+.third-section button:hover,
+.sticky-footer button:hover
+ {
   cursor: pointer;
 }
 
@@ -95,10 +106,6 @@ p small {
   font-size: 11px;
 }
 
-.third-section button:hover {
-  cursor: pointer;
-}
-
 main {
   position: relative;
   top: 60px;
@@ -112,10 +119,6 @@ main {
 .section-one h1 {
   width: 50%;
   margin: 20px auto;
-}
-
-.section-one img {
-  width: 100%;
 }
 
 .caption {
@@ -183,7 +186,6 @@ article header a {
 }
 
 .inflation img {
-  width: 100%;
   margin-top: 10px;
 }
 
@@ -194,10 +196,6 @@ article header a {
 .youtube-section a {
   font-size: 20px;
   color: #326891;
-}
-
-.grid-item img {
-  width: 100%;
 }
 
 .footer-header img {
@@ -392,7 +390,6 @@ article header a {
   background-color: #fff;
   bottom: 0;
   border-top: solid thin #333;
-  width: 100%;
   padding: 10px 0;
 }
 
@@ -401,8 +398,4 @@ article header a {
   position: relative;
   bottom: 10px;
   font-size: 16px;
-}
-
-.sticky-footer button:hover {
-  cursor: pointer;
 }
