@@ -17,9 +17,9 @@
 
 ## Authors
 
-- 👤 [@oracleot](https://github.com/oracleot)
-
 - 👤 [@IjayAbby](https://github.com/IjayAbby)
+
+- 👤 [@oracleot](https://github.com/oracleot)
 
 ## 🤝 Contributing
 

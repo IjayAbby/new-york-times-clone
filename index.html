@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>New York Times Clone</title>
   <link rel="stylesheet" href="./assets/styles.css">
-  <script src="https://use.fontawesome.com/f220714871.js"></script>
+  <script crossorigin="anonymous" src="https://use.fontawesome.com/f220714871.js"></script>
 </head>
 <body>
   <header class="header">
@@ -19,7 +18,7 @@
       <img src="assets/images/logo.png" alt="New York Times logo" />
     </div>
     <div class="third-section">
-      <button>Subscribe Now</button>
+      <button id="subscribe-now" type="button">Subscribe Now</button>
       &ensp;
       <a href="#">Account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
     </div>
@@ -191,7 +190,7 @@
          to tell him the news.
       </p>
       <figure>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="Stanford Professor Andrei Linde celebrates..." width="560" height="315" src="https://www.youtube.com/embed/ZlfIVEy_YOA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <figcaption class="caption">Stanford Professor Andrei Linde celebrates physics breakthrough
           <span>Video by StanfordUniversity</span>
           </figcaption>
@@ -307,7 +306,7 @@
       </small>
       <br />
       <div class="more-comments">
-        <button>Read 615 comments</button>
+        <button id="comments" type="button">Read 615 comments</button>
         <div class="social-icons">
           <i class="fa fa-facebook" aria-hidden="true"></i>
           &ensp;
@@ -660,7 +659,7 @@
           &nbsp;
           Ends soon.
         </p>
-        <button>
+        <button id="expand" type="button">
           Expand
           &emsp;
           <i class="fa fa-2x fa-angle-up" aria-hidden="true"></i>
