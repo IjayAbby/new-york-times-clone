@@ -2,13 +2,12 @@
 
 # New York Times Clone
 
-> HTML/CSS3 3rd Project on Positioning and Floating Elements. The project focusses on the use of different kinds of positioning, floating and use of Flex and Grids displays.
+> HTML/CSS3 3rd Project on Building with Backgrounds and Gradient. The project focuses on the best practices of Learning CSS best practices.
 
-![screenshot](./website_screenshot.png)
 
 ## Built With
 
-- HTML
+- HTML5
 - CSS3
 
 ## Live Demo
@@ -17,9 +16,9 @@
 
 ## Authors
 
-- 👤 [@IjayAbby](https://github.com/IjayAbby)
-
 - 👤 [@oracleot](https://github.com/oracleot)
+
+- 👤 [@IjayAbby](https://github.com/IjayAbby)
 
 ## 🤝 Contributing
 
